@@ -20,6 +20,8 @@ export default class PlantList extends Component {
         });
       });
   }
+  // when the component mounts:
+  //   - fetch data from the server endpoint - http://localhost:3333/plants
 
   componentWillUnmount() {
     this._isMounted = false;

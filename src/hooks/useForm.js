@@ -8,6 +8,7 @@ export default function useForm(key, initialValue) {
 
         return storedItem;
     });
+  
 
     const setTheValue = value => {
         // doesn't really do much without the local storage
@@ -17,4 +18,4 @@ export default function useForm(key, initialValue) {
     };
 
     return [Value, setTheValue];
-}
+} 
